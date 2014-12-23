@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
-
+//http://stackoverflow.com/questions/10845172/android-running-a-method-periodically-using-postdelayed-call
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
