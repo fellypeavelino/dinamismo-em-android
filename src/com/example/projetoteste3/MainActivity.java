@@ -46,10 +46,10 @@ public class MainActivity extends ActionBarActivity {
 	    public void run(){
 	        try {
 	            //prepare and send the data here..
-	        	Calendar data = Calendar.getInstance();
-				TextView text = (TextView)findViewById(R.id.horas);
-				text.setText(data.get(Calendar.HOUR)+":"+data.get(Calendar.MINUTE)+":"+data.get(Calendar.SECOND));
-
+	        	//Calendar data = Calendar.getInstance();
+				//TextView text = (TextView)findViewById(R.id.horas);
+				//text.setText(data.get(Calendar.HOUR)+":"+data.get(Calendar.MINUTE)+":"+data.get(Calendar.SECOND));
+	        	horas();
 	            handler.postDelayed(this, 1000);    
 	        }
 	        catch (Exception e) {
